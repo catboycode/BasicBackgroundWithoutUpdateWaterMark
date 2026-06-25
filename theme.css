@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css');
+
+:root {
+  --background: url('https://files.catbox.moe/l96wvn.webp');
+  --backgroundsize: cover;
+  --backgroundposition: center;
+
+  --backgroundblur: 10px;
+  --popoutblur: 0px;
+
+  --transparencycolor: 0,0,0;
+  --transparencyalpha: 0.55;
+
+  --accentcolor: 100,100,100;
+
+  --messagetransparency: 0.55;
+  --guildchanneltransparency: 0.55;
+  --chatinputtransparency: 0.55;
+  --memberlisttransparency: 0.55;
+
+  --font: "Chewy", sans-serif;
+}
