@@ -482,8 +482,8 @@ body,											/* body													*/
 
 /* ~~~~		2.		BACKGROUND					~~~~ */
 
-body:has(#app-mount)::before,
-body:has(#app-mount)::after {
+body::before,
+body::after {
 	content: "";
 	position: fixed;
 	top: 0;
@@ -493,10 +493,10 @@ body:has(#app-mount)::after {
 	pointer-events: none;
 	z-index: -1;
 }
-body:has(#app-mount)::before {
+body::before {
 	background: var(--background_v) var(--backgroundposition_v)/var(--backgroundsize_v);
 }
-body:has(#app-mount)::after {
+body::after {
 	backdrop-filter: blur(var(--backgroundblur_v));
 }
 .layer__960e4 {
